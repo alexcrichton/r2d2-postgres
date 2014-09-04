@@ -13,7 +13,8 @@ name = "test"
 path = "tests/test.rs"
 
 [dependencies.postgres]
-git = "https://github.com/sfackler/rust-postgres"
+git = "https://github.com/alexcrichton/rust-postgres"
+branch = "servo-url"
 
 [dependencies.r2d2]
 git = "https://github.com/sfackler/r2d2"
