@@ -17,8 +17,8 @@ test = false
 name = "test"
 path = "tests/test.rs"
 
-[dependencies]
-r2d2 = "0.2"
+[dependencies.r2d2]
+git = "https://github.com/sfackler/r2d2"
 
 [dependencies.postgres]
 git = "https://github.com/alexcrichton/rust-postgres"
